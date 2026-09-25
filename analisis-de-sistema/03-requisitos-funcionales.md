@@ -20,4 +20,4 @@
 | HU03 Gestionar carrito | RF04 |
 | HU04 Realizar pedido | RF05, RF08 |
 | HU05 Gestionar sellers | RF07 |
-| HU06 Consultar pedidos | RF06, RF08 |
+| HU06 Consultar pedidos. | RF06, RF08 |
