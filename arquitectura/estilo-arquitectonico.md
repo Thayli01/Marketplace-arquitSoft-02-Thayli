@@ -17,18 +17,5 @@ Monolito modular con arquitectura en capas (presentación, lógica de negocio y 
 4. Todo se ejecuta en un único proceso con una única base de datos.
 
 ## Diagrama
-```mermaid
-flowchart TB
-  A["Cliente · Seller · Administrador"] --> W["Cliente Web (Angular)"]
-  W -->|"HTTPS · JSON · /api/v1"| P
-  subgraph M["Monolito modular (un proceso, un despliegue)"]
-    P["1. Presentación<br/>routes + controllers<br/>usuarios · sellers · catálogo · carrito · pedidos"]
-    L["2. Lógica de negocio<br/>services por módulo"]
-    D["3. Datos<br/>repositories + ORM"]
-    P --> L --> D
-  end
-  L -->|"caché"| R[("Caché")]
-  D -->|"TCP 5432"| DB[("PostgreSQL")]
-  L -->|"HTTPS / REST"| PG["Pasarela de pagos"]
-  L -->|"HTTPS / REST"| EN["Servicio de envíos"]
+![Diagrama del estilo arquitectónico](img/estilo.png)
 ```
