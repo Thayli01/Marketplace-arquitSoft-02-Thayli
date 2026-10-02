@@ -17,5 +17,5 @@ Monolito modular con arquitectura en capas (presentación, lógica de negocio y 
 4. Todo se ejecuta en un único proceso con una única base de datos.
 
 ## Diagrama
-![Diagrama del estilo arquitectónico](img/Enfoque.png)
+![Diagrama del estilo arquitectónico](img/estilo.png)
 ```

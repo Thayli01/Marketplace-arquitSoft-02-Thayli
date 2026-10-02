@@ -26,3 +26,5 @@
 ## Relación con el estilo arquitectónico
 Este diagrama muestra la organización interna del frontend Angular. El diagrama de `estilo-arquitectonico.md` muestra el backend (monolito modular). Son dos vistas del mismo sistema, conectadas por la API REST.
 
+## Diagrama
+![Diagrama del enfoque arquitectónico](img/Enfoque.png)
